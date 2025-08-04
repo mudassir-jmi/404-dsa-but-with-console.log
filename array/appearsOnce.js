@@ -14,5 +14,17 @@ const numberAppearsOnes = (arr) => {
 // Total Time Complexity O(n) + O(n) =  O(n^2) 
 // Space Complexity = O(1)
 
-let arr = [1, 1, 2, 3, 3, 4, 4]
 console.log(numberAppearsOnes(arr));
+
+const numberAppearsOnesOptimal = (arr) => {  // optimal solution
+    let xor = 0;
+    for (let i = 0; i < arr.length; i++) {   // O(n)
+        xor = xor ^ arr[i];
+    }
+    return xor;
+}
+// Total Time Complexity O(n)
+// Space Complexity = O(1) 
+
+let arr = [1, 1, 2, 3, 3, 4, 4]
+console.log(numberAppearsOnesOptimal(arr));
