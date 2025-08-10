@@ -75,15 +75,15 @@ Ready to join the `console.log` rebellion? It's easy:
 
 1.  **Clone the Sanctuary:**
     ```
-    git clone https://github.com/mudassir-jmi/404-DSA-but-with-console.log.git
+    git clone https://github.com/mudassir-jmi/404-dsa-but-with-console.log.git
     ```
 2.  **Choose Your Challenge:**
     ```
-    cd 404-DSA-but-with-console.log/array/
+    cd 404-dsa-but-with-console.log/array/
     ```
 3.  **Unleash the Logs:**
     ```
-    node quick-sort.js
+    node appearsOnce.js
     ```
 4.  **Witness the Magic:** Lean back, grab some popcorn, and watch your terminal come alive with the inner thoughts of your algorithm.
 
