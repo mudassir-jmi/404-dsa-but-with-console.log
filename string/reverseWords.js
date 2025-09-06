@@ -18,3 +18,9 @@ var reverseWords = function (s) {
 
 console.log(reverseWords("the sky is blue"))
 
+// Solve in one line using built in methods
+var reverseWords = function (s) {
+    return s.trim().split(/\s+/).reverse().join(' ');
+}
+
+console.log(reverseWords("the sky is blue"))
